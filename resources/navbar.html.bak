@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+
+<style>
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	background-color: red;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 10px;
+	background-color: gray;
+}
+
+ul a:hover {
+	background-color: red;
+	transition-duration: 0.2s;
+}
+
+</style>
+
+</head>
+
+<body>
+
+	<nav>
+		<ul>
+	
+			<li><a href="#">Home</a></li>
+			<li><a href="#">What I Learned</a></li>
+			<li><a href="#">Advice</a></li>
+		
+		</ul>
+	</nav>
+		
+</body>
+
+</html>

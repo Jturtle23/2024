@@ -1,0 +1,52 @@
+/* styles.css */
+
+@font-face {
+	font-family: 'Mochiy';
+	src: url('../fonts/mochiy.ttf') format('truetype');
+}
+
+/* 
+	TABLE OF CONTENTS
+	1. Global selectors
+	2. Typography
+	3. Layout
+	4. Components
+	5. Media Queries
+*/
+
+/* ====================
+   1. GLOBAL SELECTORS
+   ==================== */
+
+:root {
+	--main-green: rgb(0, 190, 80);
+	--pop-orange: rgb(255, 127, 0);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.big-heading {
+	color: var(--main-green);
+	font-family: 'Mochiy', Arial, sans-serif;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+/* ====================
+   2. TYPOGRAPHY
+   ==================== */
+   
+/* ====================
+   3. LAYOUT
+   ==================== */
+   
+/* ====================
+   4. COMPONENTS
+   ==================== */
+   
+/* ====================
+   5. MEDIA QUERIES
+   ==================== */
